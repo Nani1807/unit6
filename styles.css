@@ -1,0 +1,35 @@
+.game-container {
+  width: 400px;
+  height: 500px;
+  position: relative;
+  border: 1px solid black;
+  margin: 50px auto;
+  overflow: hidden;
+}
+
+.ball {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  top: 250px;
+  left: 190px;
+}
+
+.paddle {
+  width: 80px;
+  height: 10px;
+  background-color: blue;
+  position: absolute;
+  bottom: 0;
+  left: 160px;
+}
+
+.brick {
+  width: 60px;
+  height: 20px;
+  background-color: orange;
+  border: 1px solid black;
+  margin: 5px;
+}

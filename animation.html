@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Анімація переміщення</title>
+  <style>
+    #container {
+      position: relative;
+      width: 400px;
+      height: 400px;
+      border: 1px solid black;
+      margin-bottom: 20px;
+    }
+
+    #box {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    button {
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div id="box">Текст</div>
+  </div>
+  <button id="upBtn">Вгору</button>
+  <button id="downBtn">Вниз</button>
+  <button id="leftBtn">Вліво</button>
+  <button id="rightBtn">Вправо</button>
+
+  <script src="script4.js"></script>
+</body>
+</html>
